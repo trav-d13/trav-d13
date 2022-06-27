@@ -20,3 +20,6 @@ I am looking to apply artifical intelligence and data science to marine conserva
 <img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" **alt="NumPy" width="40" height="40"/>
 <img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain.svg" **alt="Ubuntu" width="40" height="40"/>
 </div>
+
+#### :fire: Stats :
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=trav-d13&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
