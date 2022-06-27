@@ -23,3 +23,6 @@ I am looking to apply artifical intelligence and data science to marine conserva
 
 #### :fire: Stats :
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=trav-d13&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+
+#### :phone: Contact
+Connect with me on Linkedin [here](linkedin.com/in/travis-dawson-614365182)
