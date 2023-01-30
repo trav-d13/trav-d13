@@ -3,6 +3,9 @@
 I am a Data Science and Artificial Intelligence Student, studying at Maastricht University. 
 I am looking to apply artifical intelligence and data science to marine conservation in whatever capacity required, whether environmental predictive models, robotics and computer vision, etc. 
 
+I am a Data Science and Artificial Intelligence student at Maastricht University, finishing my third and final year. I am aiming to apply AI and ML to ocean conservation issues, specifically within the realms of predictive modelling, computer vision, and ROV autonomy at sea. 
+
+
 #### :hammer_and_wrench: Languages and Tools
 
 <div>
@@ -22,7 +25,7 @@ I am looking to apply artifical intelligence and data science to marine conserva
 </div>
 
 #### :fire: Stats :
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=trav-d13&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=trav-d13&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
 
 #### :phone: Contact
 Connect with me on Linkedin [here](linkedin.com/in/travis-dawson-614365182)
