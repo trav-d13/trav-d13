@@ -1,28 +1,40 @@
-### My info... 👋
+### My info...
 
 I am a Data Science and Artificial Intelligence student at Maastricht University, finishing my third and final year. I am aiming to apply AI and ML to ocean conservation issues, specifically within the realms of predictive modelling, computer vision, and ROV autonomy at sea. 
 
 
-#### :hammer_and_wrench: Languages and Tools
+#### Languages and Tools
 
 <div>
-  <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/python/python-original-wordmark.svg" title="Python" alt="Python" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/gradle/gradle-plain-wordmark.svg" title="Gradle" alt="Gradle" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/jupyter/jupyter-original-wordmark.svg" title="Jupyter" alt="Jupyter" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-original.svg" title="JavaScript" alt="JavaScript" width="40" height="40"/>&nbsp;
-  <img src="https://github.com/devicons/devicon/blob/master/icons/mysql/mysql-original-wordmark.svg" title="MySQL"  alt="MySQL" width="40" height="40"/>&nbsp;
-<img src="https://github.com/devicons/devicon/blob/master/icons/markdown/markdown-original.svg" title="Markdown" **alt="Markdown" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/opencv/opencv-original-wordmark.svg" title="OpenCV" **alt="OpenCV" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/matlab/matlab-line.svg" title="Matlab" **alt="Matlab" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original-wordmark.svg" **alt="Git" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/django/django-plain-wordmark.svg" **alt="Django" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/numpy/numpy-original-wordmark.svg" **alt="NumPy" width="40" height="40"/>
-<img src="https://github.com/devicons/devicon/blob/master/icons/ubuntu/ubuntu-plain.svg" **alt="Ubuntu" width="40" height="40"/>
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" title="Tensorflow" alt="Tensorflow" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white" title="PostGres" alt="PostGres" width="60" height="30"/>&nbsp;
+   <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" title="Figma" alt="Figma" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=green" title="Django" alt="Django" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/fastapi-109989?style=for-the-badge&logo=FASTAPI&logoColor=white" title="FastAPI" alt="FastAPI" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/gradle-02303A?style=for-the-badge&logo=gradle&logoColor=white" title="Gradle" alt="Gradle" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Jupyter-F37626.svg?&style=for-the-badge&logo=Jupyter&logoColor=white" title="Jupyter" alt="Jupyter" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=Postman&logoColor=white" title="Postman" alt="Postman" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" title="R" alt="R" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=c%2B%2B&logoColor=white" title="C++" alt="C++" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Numpy-777BB4?style=for-the-badge&logo=numpy&logoColor=white" title="Numpy" alt="Numpy" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Pandas-2C2D72?style=for-the-badge&logo=pandas&logoColor=white" title="Pandas" alt="Pandas" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Python-FFD43B?style=for-the-badge&logo=python&logoColor=blue" title="Python" alt="Python" width="60" height="30"/>&nbsp;
+  <img src="https://camo.githubusercontent.com/ac0cb5e27f7cb91cee1f874eff4f570bc3ae7ca304d66066f87d03b72ec23bc5/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4a6176612d677265793f7374796c653d666f722d7468652d6261646765266c6f676f3d6a617661266c6f676f436f6c6f723d7768697465" title="Java" alt="Java" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E" title="Javascript" alt="Javascript" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" title="HTML5" alt="HTML5" width="60" height="30"/>&nbsp;
+  <img src="https://camo.githubusercontent.com/7906855982e8ff351db80a0a333301817aba6438198b17311e8354778337f2bd/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f4d41544c41422d677265793f7374796c653d666f722d7468652d6261646765266c6f676f3d7363696b69742d6c6561726e266c6f676f636f6c6f723d7768697465" title="Matlab" alt="Matlab" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Obsidian-483699?style=for-the-badge&logo=Obsidian&logoColor=white" title="Obsidian" alt="Obsidian" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Pop!_OS-48B9C7?style=for-the-badge&logo=Pop!_OS&logoColor=white" title="Pop_OS" alt="Pop_OS" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" title="Ubuntu" alt="Ubuntu" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white"
+       title="Arduino" alt="Arduino" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/adafruit-000000?style=for-the-badge&logo=adafruit&logoColor=white" title="Adafruit" alt="Adafruit" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" title="Github" alt="Github" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" title="Docker" alt="Docker" width="60" height="30"/>&nbsp;
 </div>
 
 #### Stats :
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=trav-d13&show_icons=true&theme=cobalt)
 
-#### :phone: Contact
+#### Linkedin
 Connect with me on Linkedin [here](linkedin.com/in/travis-dawson-614365182)
