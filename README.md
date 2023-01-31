@@ -22,9 +22,7 @@ I am a Data Science and Artificial Intelligence student at Maastricht University
 </div>
 
 #### Stats :
-[![Top Langs](https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=trav-d13&layout=compact&theme=vision-friendly-dark)](https://github.com/anuraghazra/github-readme-stats)
-
-<iframe width="600" height="600" src="https://ionicabizau.github.io/github-profile-languages/api.html?rjoydip" frameborder="0"></iframe>
+![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=trav-d13&show_icons=true&theme=cobalt)
 
 #### :phone: Contact
 Connect with me on Linkedin [here](linkedin.com/in/travis-dawson-614365182)
