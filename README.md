@@ -37,4 +37,4 @@ I am a Data Science and Artificial Intelligence student at Maastricht University
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=trav-d13&show_icons=true&theme=cobalt)
 
 #### Linkedin
-Connect with me on Linkedin [here](www.linkedin.com/in/travdawson)
+Connect with me on Linkedin on: https://www.linkedin.com/in/travdawson
