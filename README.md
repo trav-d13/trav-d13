@@ -1,7 +1,6 @@
 ### My info...
 
-I am a Data Science and Artificial Intelligence student at Maastricht University, finishing my third and final year. I am aiming to apply AI and ML to ocean conservation issues, specifically within the realms of predictive modelling, computer vision, and ROV autonomy at sea. 
-
+I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intelligence (AI) to issues surrounding clean energy and conservation, to effect a positive change in the world. I hold a BSC Data Science and Artificial Intelligence from Maastricht University. 
 
 #### Languages and Tools
 
