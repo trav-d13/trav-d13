@@ -1,6 +1,6 @@
 ### My info...
 
-I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intelligence (AI) to issues surrounding clean energy and conservation, to effect a positive change in the world. I hold a BSC Data Science and Artificial Intelligence from Maastricht University. 
+I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intelligence (AI) to issues surrounding clean energy and conservation, to effect a positive change in the world. I hold a BSc Data Science and Artificial Intelligence from Maastricht University. 
 
 #### Languages and Tools
 
