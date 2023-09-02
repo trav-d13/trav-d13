@@ -1,6 +1,7 @@
 ### My info...
-
-I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intelligence (AI) to issues surrounding clean energy and conservation, to effect a positive change in the world. I hold a BSc Data Science and Artificial Intelligence from Maastricht University. 
+Hi everyone, my name is Travis... \
+I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intelligence (AI) to effect a positive change in the world. I believe pressing issues of clean energy, conservation, and communities could benefit immensely from the strategic use of these technilogical tools. 
+I look forward to working towards realizing these goals.
 
 #### Languages and Tools
 
@@ -30,10 +31,18 @@ I aim to leverage the capabilities of Machine Learning (ML) and Artificial Intel
   <img src="https://img.shields.io/badge/adafruit-000000?style=for-the-badge&logo=adafruit&logoColor=white" title="Adafruit" alt="Adafruit" width="60" height="30"/>&nbsp;
   <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" title="Github" alt="Github" width="60" height="30"/>&nbsp;
   <img src="https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white" title="Docker" alt="Docker" width="60" height="30"/>&nbsp;
+  <img src="https://img.shields.io/badge/%F0%9F%A6%9C%EF%B8%8F%F0%9F%94%97Langchain-green?style=for-the-badge" title="Langchain" width="60" height="30"/>&nbsp;
 </div>
 
 #### Stats :
 ![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=trav-d13&show_icons=true&theme=cobalt)
 
-#### Linkedin
-Connect with me on Linkedin on: https://www.linkedin.com/in/travdawson
+### Lets Connect
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-2CA5E0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/travdawson)
+[![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](travisdawson64@gmail.com) 
+
+### Tutoring
+I offer tutoring services via Superprof:) \
+You can find my profile [here](https://www.superprof.co.uk/java-python-matlab-tutoring-from-data-science-and-artificial-intelligence-graduate-learn-object-oriented-programming-data.html)
+I look forward to working with you!
+
