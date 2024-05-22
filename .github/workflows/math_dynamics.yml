@@ -14,6 +14,9 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}  # Ensure you have the token to push changes
+          fetch-depth: 0  # Fetch all history for all branches and tags
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -69,12 +72,44 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout -b update-mandelbrot-$(date -u +"%Y%m%d")
           git add -A
           git commit -m "Update Mandelbrot image on $(date -u +"%Y-%m-%d")" || echo "No changes to commit"
-          git pull origin <main>
-          git push origin <main>
 
-      - name: Push changes
+      - name: Push new branch
         uses: ad-m/github-push-action@v0.6.0
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: update-mandelbrot-$(date -u +"%Y%m%d")
+
+      - name: Create Pull Request
+        id: create_pr
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: "Update Mandelbrot image on $(date -u +"%Y-%m-%d")"
+          branch: update-mandelbrot-$(date -u +"%Y%m%d")
+          base: main
+          title: "Update Mandelbrot image on $(date -u +"%Y-%m-%d")"
+          body: "Automated update of the Mandelbrot image."
+
+      - name: Merge Pull Request
+        if: steps.create_pr.outputs.pull-request-url != ''
+        uses: actions/github-script@v6
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const pr = await github.pulls.list({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'open',
+              head: `update-mandelbrot-${new Date().toISOString().slice(0,10)}`
+            });
+            if (pr.data.length > 0) {
+              await github.pulls.merge({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                pull_number: pr.data[0].number,
+                merge_method: 'squash'
+              });
+            }
