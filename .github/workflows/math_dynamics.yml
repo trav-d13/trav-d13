@@ -1,0 +1,56 @@
+name: Fetch Mandelbrot Image
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # This will run the workflow every day at midnight UTC
+  workflow_dispatch: # Allows the workflow to be run manually
+
+jobs:
+  fetch_and_commit:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install requests
+        run: pip install requests
+
+      - name: Fetch Mandelbrot Image
+        env:
+          API_KEY: ${{ secrets.API_KEY }}
+        run: |
+          python - <<EOF
+          import requests
+          from datetime import datetime
+
+          url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=400&colour=magma&explanation=true'
+          headers = {
+              'accept': 'application/json',
+              'Authorization': f'Bearer ${{ secrets.MTH_DYNAMIC_API_KEY }}',
+          }
+
+          response = requests.get(url, headers=headers)
+
+          if response.status_code == 200:
+              now = datetime.utcnow().strftime('%Y%m%d')
+              file_path = f'resources/math_dynamic_{now}.gif'
+              with open(file_path, 'wb') as file:
+                  file.write(response.content)
+          else:
+              raise Exception(f"Failed to retrieve image: {response.status_code}")
+          EOF
+
+      - name: Commit new image
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          now=$(date -u +"%Y%m%d")
+          git add resources/math_dynamic_${now}.gif
+          git commit -m "Add new Mandelbrot image for ${now}"
+          git push
