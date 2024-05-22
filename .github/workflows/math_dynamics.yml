@@ -36,7 +36,7 @@ jobs:
               'Authorization': f'Bearer {os.getenv("MATH_DYNAMIC_API_KEY")}',
           }
 
-          response = requests.get(url, headers=headers)
+          response = requests.get(url, headers=headers, timeout=60)
 
           if response.status_code == 200:
               now = datetime.utcnow().strftime('%Y%m%d')
