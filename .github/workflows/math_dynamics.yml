@@ -55,6 +55,9 @@ jobs:
               raise Exception(f"Failed to retrieve image: {response.status_code}")
           EOF
 
+      - name: List directory contents
+        run: ls -R
+
       - name: Update README with latest image
         run: |
           now=$(date -u +"%Y%m%d")
