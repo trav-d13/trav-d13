@@ -41,8 +41,6 @@ I look forward to working towards realizing these goals.
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2CA5E0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/travdawson)
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](travisdawson64@gmail.com) 
 
-### Tutoring
-I offer tutoring services via Superprof:) \
-You can find my profile [here](https://www.superprof.co.uk/java-python-matlab-tutoring-from-data-science-and-artificial-intelligence-graduate-learn-object-oriented-programming-data.html)
-I look forward to working with you!
+### Cool Math
+![math Dynamics Cool Math](resources/math_dynamic_20240522.gif)
 
