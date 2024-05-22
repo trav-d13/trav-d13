@@ -28,6 +28,7 @@ jobs:
           python - <<EOF
           import requests
           from datetime import datetime
+          import os
 
           url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=400&colour=magma&explanation=true'
           headers = {
