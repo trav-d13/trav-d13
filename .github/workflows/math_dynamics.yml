@@ -1,4 +1,6 @@
 name: Fetch Mandelbrot Image
+permissions:
+  contents: write
 
 on:
   schedule:
@@ -67,9 +69,9 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git add resources/ README.md
+          git add -A
           git commit -m "Update Mandelbrot image on $(date -u +"%Y-%m-%d")" || echo "No changes to commit"
-          git push origin main
+          git push
 
       - name: Push changes
         uses: ad-m/github-push-action@v0.6.0
