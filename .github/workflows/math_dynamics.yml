@@ -26,6 +26,14 @@ jobs:
       - name: Install requests
         run: pip install requests
 
+      - name: Create and switch to new branch
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git checkout main
+          git pull origin main
+          git checkout -b update-mandelbrot-$(date -u +"%Y%m%d")
+
       - name: Fetch Mandelbrot Image
         env:
           MATH_DYNAMIC_API_KEY: ${{ secrets.MATH_DYNAMIC_API_KEY }}
@@ -70,17 +78,9 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          git checkout -b update-mandelbrot-$(date -u +"%Y%m%d")
           git add -A
           git commit -m "Update Mandelbrot image on $(date -u +"%Y-%m-%d")" || echo "No changes to commit"
-
-      - name: Push new branch
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: update-mandelbrot-$(date -u +"%Y%m%d")
+          git push origin update-mandelbrot-$(date -u +"%Y%m%d")
 
       - name: Create Pull Request
         id: create_pr
