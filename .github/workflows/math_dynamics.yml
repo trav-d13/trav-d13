@@ -44,6 +44,9 @@ jobs:
               with open(file_path, 'wb') as file:
                   file.write(response.content)
           else:
+              print(f"Response Code: {response.status_code}")
+              print(f"Response Headers: {response.headers}")
+              print(f"Response Text: {response.text}")
               raise Exception(f"Failed to retrieve image: {response.status_code}")
           EOF
 
