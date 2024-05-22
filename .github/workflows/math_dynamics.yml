@@ -30,13 +30,13 @@ jobs:
           from datetime import datetime
           import os
 
-          url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=400&colour=viridis&explanation=true'
+          url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=200&colour=viridis&explanation=true'
           headers = {
               'accept': 'application/json',
               'Authorization': f'Bearer {os.getenv("MATH_DYNAMIC_API_KEY")}',
           }
 
-          response = requests.get(url, headers=headers, timeout=200)
+          response = requests.get(url, headers=headers)
 
           if response.status_code == 200:
               now = datetime.utcnow().strftime('%Y%m%d')
