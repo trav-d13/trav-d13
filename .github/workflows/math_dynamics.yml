@@ -22,6 +22,8 @@ jobs:
         run: pip install requests
 
       - name: Fetch Mandelbrot Image
+        env:
+          MATH_DYNAMIC_API_KEY: ${{ secrets.MATH_DYNAMIC_API_KEY }}
         run: |
           python - <<EOF
           import requests
@@ -30,7 +32,7 @@ jobs:
           url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=400&colour=magma&explanation=true'
           headers = {
               'accept': 'application/json',
-              'Authorization': f'Bearer ${{ secrets.MATH_DYNAMIC_API_KEY }}',
+              'Authorization': f'Bearer {os.getenv("MATH_DYNAMIC_API_KEY")}',
           }
 
           response = requests.get(url, headers=headers)
