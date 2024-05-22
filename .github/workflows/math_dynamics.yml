@@ -69,6 +69,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git pull
           git add -A
           git commit -m "Update Mandelbrot image on $(date -u +"%Y-%m-%d")" || echo "No changes to commit"
           git push
