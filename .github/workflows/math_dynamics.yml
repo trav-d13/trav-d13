@@ -41,8 +41,13 @@ jobs:
           if response.status_code == 200:
               now = datetime.utcnow().strftime('%Y%m%d')
               file_path = f'resources/math_dynamic_{now}.gif'
-              with open(file_path, 'wb') as file:
-                  file.write(response.content)
+              try:
+                  with open(file_path, 'wb') as file:
+                      file.write(response.content)
+                  print(f"Image saved to {file_path}")
+              except Exception as e:
+                  print(f"Error saving image: {e}")
+                  raise
           else:
               print(f"Response Code: {response.status_code}")
               print(f"Response Headers: {response.headers}")
