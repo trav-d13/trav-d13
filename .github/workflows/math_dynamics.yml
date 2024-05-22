@@ -54,12 +54,3 @@ jobs:
         run: |
           now=$(date -u +"%Y%m%d")
           sed -i "s|!\[Mandelbrot Image\](resources/math_dynamic_.*.gif)|![Mandelbrot Image](resources/math_dynamic_${now}.gif)|" README.md
-
-      - name: Commit new image
-        run: |
-          git config --global user.name 'github-actions[bot]'
-          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          now=$(date -u +"%Y%m%d")
-          git add resources/math_dynamic_${now}.gif
-          git commit -m "Add new Mandelbrot image for ${now}"
-          git push
