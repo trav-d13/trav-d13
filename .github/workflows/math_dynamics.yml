@@ -31,31 +31,61 @@ jobs:
           import requests
           from datetime import datetime
           import os
+          import time
 
-          url = 'https://math-dynamics.0cta1.com/mandelbrot?width=200&height=200&max_iterations=400&colour=inferno&explanation=true'
+          width = 200
+          height = 200
+          max_iterations = 400
+          colour = 'inferno'
+          explanation = True
+
+          url = f'https://math-dynamics.0cta1.com/mandelbrot?width={width}&height={height}&max_iterations={max_iterations}&colour={colour}&explanation={str(explanation).lower()}'
           headers = {
               'accept': 'application/json',
               'Authorization': f'Bearer {os.getenv("MATH_DYNAMIC_API_KEY")}',
           }
 
-          response = requests.get(url, headers=headers)
+          now = datetime.utcnow().strftime('%Y%m%d')
+          # TODO Alter this so the pattern name is returned by the random endpoint
+          file_path = f'resources/mandelbrot_iter_{width}_{height}_{max_iterations}_{colour}_{explanation}_{now}.gif'
 
-          if response.status_code == 200:
-              now = datetime.utcnow().strftime('%Y%m%d')
-              file_path = f'resources/math_dynamic_{now}.gif'
-              try:
-                  with open(file_path, 'wb') as file:
-                      file.write(response.content)
-                  print(f"Image saved to {file_path}")
-              except Exception as e:
-                  print(f"Error saving image: {e}")
-                  raise
+          def fetch_image():
+              response = requests.get(url, headers=headers)
+              if response.status_code == 200:
+                  try:
+                      with open(file_path, 'wb') as file:
+                          file.write(response.content)
+                      print(f"Image saved to {file_path}")
+                      return True
+                  except Exception as e:
+                      print(f"Error saving image: {e}")
+                      return False
+              else:
+                  print(f"Response Code: {response.status_code}")
+                  print(f"Response Headers: {response.headers}")
+                  print(f"Response Text: {response.text}")
+                  return False
+
+          if os.path.exists(file_path):
+              print(f"File already exists: {file_path}")
           else:
-              print(f"Response Code: {response.status_code}")
-              print(f"Response Headers: {response.headers}")
-              print(f"Response Text: {response.text}")
-              raise Exception(f"Failed to retrieve image: {response.status_code}")
+              success = False
+              for attempt in range(2):
+                  try:
+                      success = fetch_image()
+                      if success:
+                          break
+                  except Exception as e:
+                      print(f"Attempt {attempt + 1} failed: {e}")
+                      if attempt < 1:
+                          print("Retrying in 30 seconds...")
+                          time.sleep(30)
+              
+              if not success:
+                  raise Exception("Both attempts to fetch the image have failed.")
           EOF
+
+
 
       - name: List directory contents
         run: ls -R
