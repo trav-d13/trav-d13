@@ -33,10 +33,10 @@ jobs:
           import os
           import time
 
-          width = 200
-          height = 200
+          width = 300
+          height = 300
           max_iterations = 400
-          colour = 'inferno'
+          colour = 'magma'
           explanation = True
 
           url = f'https://math-dynamics.0cta1.com/mandelbrot?width={width}&height={height}&max_iterations={max_iterations}&colour={colour}&explanation={str(explanation).lower()}'
