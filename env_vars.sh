@@ -1,1 +1,1 @@
-export FILE_NAME=mandelbrot_iter_{width}_{height}_{max_iterations}_{colour}_{explanation}.gif
+export FILE_NAME=mandelbrot_iter_300_300_400_magma_True.gif
