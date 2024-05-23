@@ -97,7 +97,8 @@ jobs:
         run: |
           source env_vars.sh
           new_image="resources/${FILE_NAME}"
-          sed -i "s|!\[Mandelbrot Image\](resources/math_dynamic_.*.gif)|![Mandelbrot Image](${new_image})|" README.md
+          sed -i "s|!\[math Dynamics Cool Math\](resources/[^ ]*.gif)|![math Dynamics Cool Math](${new_image})|" README.md
+
 
       - name: Commit changes
         run: |
