@@ -47,7 +47,7 @@ jobs:
 
           now = datetime.utcnow().strftime('%Y%m%d')
           # TODO Alter this so the pattern name is returned by the random endpoint
-          file_name = 'mandelbrot_iter_{width}_{height}_{max_iterations}_{colour}_{explanation}.gif'
+          file_name = f'mandelbrot_iter_{width}_{height}_{max_iterations}_{colour}_{explanation}.gif'
           file_path = f'resources/{file_name}'
           def fetch_image():
               response = requests.get(url, headers=headers)
