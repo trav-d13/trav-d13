@@ -42,5 +42,5 @@ I look forward to working towards realizing these goals.
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](travisdawson64@gmail.com) 
 
 ### Cool Math
-![math Dynamics Cool Math](resources/math_dynamic_20240522.gif)
+![math Dynamics Cool Math](resources/mandelbrot_iter_300_300_400_magma_true.gif)
 
