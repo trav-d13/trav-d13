@@ -16,6 +16,8 @@ Please reach out to share ideas, collaborate, or review my repositories or those
     <img src="https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white" title="R" alt="R" width="90" height="30"/>&nbsp;
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" title="HTML5" alt="HTML5" width="90" height="30"/>&nbsp;
     <img src="https://img.shields.io/badge/Matlab-0076A8?style=for-the-badge&logo=mathworks&logoColor=white" title="Matlab" alt="Matlab" width="90" height="30"/>&nbsp;
+    <img src="https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" title="Vue.js" alt="Vue.js" width="90" height="30"/>&nbsp;
+
 </div>
 
 #### Tools
