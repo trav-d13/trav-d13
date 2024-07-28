@@ -75,6 +75,3 @@ Please reach out to share ideas, collaborate, or review my repositories or those
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-2CA5E0?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/travdawson)
 [![Gmail](https://img.shields.io/badge/Gmail-red?style=for-the-badge&logo=gmail&logoColor=white)](travisdawson64@gmail.com) 
 
-### Cool Math
-![math Dynamics Cool Math](resources/mandelbrot_iter_300_300_400_magma_true.gif)
-
