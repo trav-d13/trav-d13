@@ -4,7 +4,7 @@ Hi, I'm Travis! 👋
 
 I believe in continuously learning, adapting to problems, and creating innovative solutions. \
 My fascination with the ocean has shaped both my personal and professional journey—from working as a Dive Master in Mozambique to now pursuing a PhD in ocean-related research.
-Currently, I'm a PhD candidate at the University of Western Australia, focusing on site-specific ocean forecast/ correction using machine learning.
+Currently, I'm a PhD student at the University of Western Australia, focusing on site-specific ocean forecast/ correction using machine learning.
 
 Feel free to explore my work on this profile (personal account). \
 For more info on my PhD journey please check-out [@travis-dawson-PhD-journey](https://github.com/travis-dawson-PhD-journey).  🌊
