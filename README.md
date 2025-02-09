@@ -1,12 +1,15 @@
-### My info...
-Hi everyone, my name is Travis... \
-I believe in continuously learning, adapting to problems, and creating innovative solutions. As the founder of 0cat1 ("Octal") – a company providing advanced AI and data science capabilities. Our mission is centered around the ethos of perpetual growth...
 
-From a personal standpoint, this principle is my cornerstone and driving force. I strive to continually learn, adapt to different domains, and make a meaningful impact in the world through technology.
+## About Me
+Hi, I'm Travis! 👋
 
-Please reach out to share ideas, collaborate, or review my repositories or those at [0cta1](https://github.com/0cta1)
+I believe in continuously learning, adapting to problems, and creating innovative solutions. \
+My fascination with the ocean has shaped both my personal and professional journey—from working as a Dive Master in Mozambique to now pursuing a PhD in ocean-related research.
+Currently, I'm a PhD candidate at the University of Western Australia, focusing on site-specific ocean forecast/ correction using machine learning.
 
+Feel free to explore my work on this profile (personal account). \
+For more info on my PhD journey please check-out [@travis-dawson-PhD-journey](https://github.com/travis-dawson-PhD-journey).  🌊
 
+## Technical Info
 #### Languages
 <div>
     <img src="https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white" title="Java" alt="Java" width="90" height="30"/>&nbsp;
